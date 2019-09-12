@@ -1,3 +1,11 @@
 .prodotto{
-  display: inline-block
+  display: inline-block;
+  position: relative;
+}
+
+.sconto{
+  background: red;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
