@@ -12,8 +12,3 @@
   top: 0;
   right: 0;
 }
-.cuore:hover,.cuore:active{
-  display: none;
-  color: red;
-  text-align: center;
-}
