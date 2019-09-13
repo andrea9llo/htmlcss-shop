@@ -1,9 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .margin{
-  margin: 20px;
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: center;
+
 }
 .prodotto{
   display: inline-block;
   position: relative;
+  cursor: pointer;
+}
+.prodotto:hover .like{
+  display: block;
 }
 
 .sconto{
@@ -12,10 +24,15 @@
   top: 0;
   right: 0;
 }
+.green{
+  background: green;
+}
 .like{
   color: red;
   position: absolute;
-  bottom: 15px;
-  left: 50%;
-
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  line-height: 50px;
+  display: none;
 }
